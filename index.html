@@ -1,7 +1,94 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Time Table</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="TimeTableStyle.css" type="text/css">
+    </head>
+    
+    <body>
+            <!-- This is first project for Nagarro Bootcamp -->
+            <table id="table" border="5px">
+                <caption>
+                    <h3>This is Time Table</h3>
+                </caption>
+                <thead >
+                    <tr>
+                        <th>Days/Periods</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th></th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                    </tr>
+                </thead>
+                <tbody id="body">
+                    <tr>
+                        <th>Monday</th>
+                        <td>Science</td>
+                        <td>English</td>
+                        <td>Hindi</td>
+                        <td rowspan="6" id="break">B <br> R <br> E <br> A <br> K </td>
+                        <td>Maths</td>
+                        <td>Games</td>
+                        <td>Moral Science</td>
+                    </tr>
+                    <tr>
+                        <th> Tuesday</th>
+                        <td>Science</td>
+                        <td>English</td>
+                        <td>Hindi</td>
+                        <td>Maths</td>
+                        <td>Games</td>
+                        <td>Moral Science</td>
+                    </tr>
+                    <tr>
+                        <th> Wednesday</th>
+                        <td>Science</td>
+                        <td>English</td>
+                        <td rowspan="3">Hindi</td>
+                        <td>Maths</td>
+                        <td>Games</td>
+                        <td>Moral Science</td>
+                    </tr>
+                    <tr>
+                        <th> Thrusday </th>
+                        <td>Science</td>
+                        <td>English</td>
+                        <td>Maths</td>
+                        <td>Games</td>
+                        <td>Moral Science</td>
+                    </tr>
+                    <tr>
+                        <th> Friday</th>
+                        <td>Science</td>
+                        <td>English</td>
+                        <td>Maths</td>
+                        <td>Games</td>
+                        <td>Moral Science</td>
+                    </tr>
+                    <tr>
+                        <th> Saturday</th>
+                        <td>Science</td>
+                        <td>English</td>
+                        <td>Hindi</td>
+                        <td colspan="3" style="text-align: center;">Maths</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <th colspan="8 " style="text-align: center;">This is class VII</th>
+                </tfoot>
+                <!-- <tfoot>This is class VII</tfoot> -->
+            </table>
+            
+
+            
+
+    </body>
 </html>
