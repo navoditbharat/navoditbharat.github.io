@@ -1,44 +1,54 @@
 html{
-    font-family: 'Akaya Telivigala', cursive;
-    font-size: larger;
-    background-color: #E6BCCD;
+        font-family: 'Akaya Telivigala', cursive;
+        font-size: larger;
+        background-color: #E6BCCD;
 }
+
+
 body {
-    width: 550px;
-    margin: 7.5% auto;
-    background-color: #F4F7BE;
-    padding: 30px 30px 30px 30px;
-    border: 5px solid black;
-  }
-  table{
-          border-collapse: separate;
-          padding: 5px;
-          background-color:#88A0A8;
-  }
-  tr:nth-of-type(2n+1){
-          background-color: white;
-  }
-  tr:nth-of-type(2n){
-          background-color: #88A0A8;
-  }
-  th{
-          background-color: #88A0A8;
-  }
-  tfoot{
-          background-color: aqua;
-  }
-  td , th{
-          padding: 5px;
+        width: 725px;
+        border: 5px solid black;
+        margin: 30px auto;
+        background-color: #F4F7BE; 
+}
 
-  }
-  th:hover{
-          
-    color: #120ef0;
-  }
-  td:hover{
-          color: rgb(158, 31, 131);
-  }
 
+
+
+
+
+table{
+        margin: 50px;
+        border-spacing: 5px;
+        border-color: darkcyan;
+}
+
+td , th{
+        padding: 5px;
+        margin: 5px;
+}
+
+tr:nth-of-type(2n+1){
+        background-color: white;
+}
+tr:nth-of-type(2n){
+        background-color: #88A0A8;
+}
+th{
+        background-color: #88A0A8;
+}
+tfoot{
+        background-color: aqua;
+}
 #break{
-    background-color: #88A0A8;
+        background-color: #88A0A8;
+}
+  
+  
+  
+th:hover{     
+    color: #120ef0;
+}
+td:hover{
+        color: rgb(158, 31, 131);
 }
