@@ -1,0 +1,26 @@
+html,body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+
+/* CSS Varables */
+
+:root{
+    --primary-color: #495867;
+    --primary-color2: #A3C3D9;
+    --title-color:#141313;
+    --text-color:#777777;
+    --border-color:#201f1f17;
+    --gradiant-color:linear-gradient(90deg,#495867 0%,#A3C3D9 100%);
+    --shadow-color:0px 10px 30px rgba(57,56,61,0.205);
+
+
+
+    /* Font Family Variables */
+    --font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
