@@ -28,3 +28,70 @@ html{
 
 
 /* End navigation */
+
+
+
+
+/* Start Main area */
+
+.site-main .site-banner .site-title > h3{
+    padding-top: 30%;
+    font-weight: 300;
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 3rem;
+    font-weight: 400 ;
+}
+
+.title-text{
+    font: normal bold 50px/72px;
+}
+
+
+.banner-image > img, .about-area .about-image >img{
+    padding: 3rem 0;
+    width: 30rem;
+}
+
+.site-main .site-banner .button{
+    padding: 0.8rem 2.2rem;
+    font: normal 500 16px/20px;
+    position: relative;
+    margin-top: 3%;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    /* box-shadow: 0 5px 5px ; */
+}
+
+.about-area {
+    margin: 1rem 2rem 0 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.about-area .about-text{
+    padding: 5rem 0;
+}
+
+.about-area h2{
+    font-weight: 100;
+    letter-spacing: 5px;
+    color: black;
+}
+
+.about-area p{
+    color: var(--text-color);
+    margin-top: 1.8rem;
+}
+
+.about-area .button{
+    padding: 0.8rem 2.2rem;
+    font: normal 500 16px/20px;
+    position: relative;
+    margin-top: 0.1rem;
+    border-radius: 10px;
+    /* box-shadow: 0 2px 5px ; */
+}
+
+
+/* End Main area */
