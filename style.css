@@ -94,4 +94,10 @@ html{
 }
 
 
+
+.tech-area .known-tech h2{
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
 /* End Main area */
